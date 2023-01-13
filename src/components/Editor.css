@@ -1,0 +1,51 @@
+.container{
+    padding-top: 2rem;
+    
+    display: flex;
+    justify-content: space-around;
+    }
+
+    .input textarea{
+        height: 60vh;
+        width: 40vw;
+        background-color: #3867d6;
+        border: 2px solid black;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        color: antiquewhite;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .output-text{
+
+        height: 70vh;
+        width: 35vw;
+        background-color: rgb(27, 24, 24);
+        box-shadow: 8px 10px 10px 2px black;
+        border-radius: 1rem;
+        padding: 1rem;
+        font-family: cursive;
+        overflow-wrap: break-word;
+        overflow-y: auto;
+        color: white;
+    }
+    .output-text:hover{
+        box-shadow: 8px 10px 10px 5px black
+    }
+    button{
+        position: absolute;
+    left: 42.3rem;
+    bottom: 12rem;
+    height: 6vh;
+    width: 3vw;
+    border-radius: 50%;
+    background-color: green;
+    font-size: 2rem;
+    cursor: pointer;
+    
+
+    }
+    button:hover{
+        background-color: blue;
+        
+    }
